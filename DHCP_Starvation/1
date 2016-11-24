@@ -1,0 +1,824 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-V3.1.1
+
+lease 10.10.111.107 {
+  starts 3 2016/09/28 05:17:33;
+  ends 3 2016/09/28 05:17:33;
+  cltt 3 2016/09/28 05:17:33;
+  binding state abandoned;
+  next binding state free;
+}
+lease 10.10.111.107 {
+  starts 3 2016/09/28 05:17:33;
+  ends 3 2016/09/28 05:17:33;
+  cltt 3 2016/09/28 05:17:33;
+  binding state free;
+}
+lease 10.10.111.100 {
+  starts 3 2016/09/28 05:22:37;
+  ends 3 2016/09/28 06:22:37;
+  cltt 3 2016/09/28 05:22:37;
+  binding state active;
+  next binding state free;
+  hardware ethernet 66:61:65:38:32:34;
+}
+lease 10.10.111.101 {
+  starts 3 2016/09/28 05:22:37;
+  ends 3 2016/09/28 06:22:37;
+  cltt 3 2016/09/28 05:22:37;
+  binding state active;
+  next binding state free;
+  hardware ethernet 64:33:32:32:61:38;
+}
+lease 10.10.111.104 {
+  starts 3 2016/09/28 05:22:39;
+  ends 3 2016/09/28 06:22:39;
+  cltt 3 2016/09/28 05:22:39;
+  binding state active;
+  next binding state free;
+  hardware ethernet 33:32:38:62:63:62;
+}
+lease 10.10.111.105 {
+  starts 3 2016/09/28 05:22:39;
+  ends 3 2016/09/28 06:22:39;
+  cltt 3 2016/09/28 05:22:39;
+  binding state active;
+  next binding state free;
+  hardware ethernet 36:31:38:39:35:33;
+}
+lease 10.10.111.108 {
+  starts 3 2016/09/28 05:22:41;
+  ends 3 2016/09/28 06:22:41;
+  cltt 3 2016/09/28 05:22:41;
+  binding state active;
+  next binding state free;
+  hardware ethernet 32:64:34:31:34:31;
+}
+lease 10.10.111.109 {
+  starts 3 2016/09/28 05:22:42;
+  ends 3 2016/09/28 06:22:42;
+  cltt 3 2016/09/28 05:22:42;
+  binding state active;
+  next binding state free;
+  hardware ethernet 62:39:63:30:65:30;
+}
+lease 10.10.111.111 {
+  starts 3 2016/09/28 05:22:43;
+  ends 3 2016/09/28 06:22:43;
+  cltt 3 2016/09/28 05:22:43;
+  binding state active;
+  next binding state free;
+  hardware ethernet 61:65:61:64:36:38;
+}
+lease 10.10.111.112 {
+  starts 3 2016/09/28 05:22:43;
+  ends 3 2016/09/28 06:22:43;
+  cltt 3 2016/09/28 05:22:43;
+  binding state active;
+  next binding state free;
+  hardware ethernet 32:62:34:66:33:35;
+}
+lease 10.10.111.114 {
+  starts 3 2016/09/28 05:22:44;
+  ends 3 2016/09/28 06:22:44;
+  cltt 3 2016/09/28 05:22:44;
+  binding state active;
+  next binding state free;
+  hardware ethernet 39:66:62:34:33:39;
+}
+lease 10.10.111.123 {
+  starts 3 2016/09/28 05:22:49;
+  ends 3 2016/09/28 06:22:49;
+  cltt 3 2016/09/28 05:22:49;
+  binding state active;
+  next binding state free;
+  hardware ethernet 63:64:31:35:36:66;
+}
+lease 10.10.111.124 {
+  starts 3 2016/09/28 05:22:50;
+  ends 3 2016/09/28 06:22:50;
+  cltt 3 2016/09/28 05:22:50;
+  binding state active;
+  next binding state free;
+  hardware ethernet 62:39:31:32:37:30;
+}
+lease 10.10.111.126 {
+  starts 3 2016/09/28 05:22:51;
+  ends 3 2016/09/28 06:22:51;
+  cltt 3 2016/09/28 05:22:51;
+  binding state active;
+  next binding state free;
+  hardware ethernet 66:61:63:34:66:39;
+}
+lease 10.10.111.127 {
+  starts 3 2016/09/28 05:22:52;
+  ends 3 2016/09/28 06:22:52;
+  cltt 3 2016/09/28 05:22:52;
+  binding state active;
+  next binding state free;
+  hardware ethernet 34:37:32:61:35:31;
+}
+lease 10.10.111.128 {
+  starts 3 2016/09/28 05:22:52;
+  ends 3 2016/09/28 06:22:52;
+  cltt 3 2016/09/28 05:22:52;
+  binding state active;
+  next binding state free;
+  hardware ethernet 39:36:34:63:34:32;
+}
+lease 10.10.111.129 {
+  starts 3 2016/09/28 05:22:53;
+  ends 3 2016/09/28 06:22:53;
+  cltt 3 2016/09/28 05:22:53;
+  binding state active;
+  next binding state free;
+  hardware ethernet 35:30:63:63:64:34;
+}
+lease 10.10.111.130 {
+  starts 3 2016/09/28 05:22:53;
+  ends 3 2016/09/28 06:22:53;
+  cltt 3 2016/09/28 05:22:53;
+  binding state active;
+  next binding state free;
+  hardware ethernet 65:63:33:30:65:34;
+}
+lease 10.10.111.131 {
+  starts 3 2016/09/28 05:22:54;
+  ends 3 2016/09/28 06:22:54;
+  cltt 3 2016/09/28 05:22:54;
+  binding state active;
+  next binding state free;
+  hardware ethernet 30:63:35:38:63:66;
+}
+lease 10.10.111.102 {
+  starts 3 2016/09/28 05:23:23;
+  ends 3 2016/09/28 06:23:23;
+  cltt 3 2016/09/28 05:23:23;
+  binding state active;
+  next binding state free;
+  hardware ethernet 32:30:36:64:30:65;
+}
+lease 10.10.111.103 {
+  starts 3 2016/09/28 05:23:24;
+  ends 3 2016/09/28 06:23:24;
+  cltt 3 2016/09/28 05:23:24;
+  binding state active;
+  next binding state free;
+  hardware ethernet 32:36:63:31:31:65;
+}
+lease 10.10.111.107 {
+  starts 3 2016/09/28 05:23:26;
+  ends 3 2016/09/28 06:23:26;
+  cltt 3 2016/09/28 05:23:26;
+  binding state active;
+  next binding state free;
+  hardware ethernet 65:33:31:33:35:37;
+}
+lease 10.10.111.113 {
+  starts 3 2016/09/28 05:23:29;
+  ends 3 2016/09/28 06:23:29;
+  cltt 3 2016/09/28 05:23:29;
+  binding state active;
+  next binding state free;
+  hardware ethernet 31:34:62:63:61:34;
+}
+lease 10.10.111.115 {
+  starts 3 2016/09/28 05:23:30;
+  ends 3 2016/09/28 06:23:30;
+  cltt 3 2016/09/28 05:23:30;
+  binding state active;
+  next binding state free;
+  hardware ethernet 35:63:39:34:37:39;
+}
+lease 10.10.111.116 {
+  starts 3 2016/09/28 05:23:31;
+  ends 3 2016/09/28 06:23:31;
+  cltt 3 2016/09/28 05:23:31;
+  binding state active;
+  next binding state free;
+  hardware ethernet 65:37:64:63:34:37;
+}
+lease 10.10.111.117 {
+  starts 3 2016/09/28 05:23:31;
+  ends 3 2016/09/28 06:23:31;
+  cltt 3 2016/09/28 05:23:31;
+  binding state active;
+  next binding state free;
+  hardware ethernet 38:66:32:31:30:33;
+}
+lease 10.10.111.121 {
+  starts 3 2016/09/28 05:23:34;
+  ends 3 2016/09/28 06:23:34;
+  cltt 3 2016/09/28 05:23:34;
+  binding state active;
+  next binding state free;
+  hardware ethernet 62:62:39:38:33:64;
+}
+lease 10.10.111.122 {
+  starts 3 2016/09/28 05:23:34;
+  ends 3 2016/09/28 06:23:34;
+  cltt 3 2016/09/28 05:23:34;
+  binding state active;
+  next binding state free;
+  hardware ethernet 32:35:61:30:63:38;
+}
+lease 10.10.111.125 {
+  starts 3 2016/09/28 05:23:36;
+  ends 3 2016/09/28 06:23:36;
+  cltt 3 2016/09/28 05:23:36;
+  binding state active;
+  next binding state free;
+  hardware ethernet 35:38:34:66:65:34;
+}
+lease 10.10.111.132 {
+  starts 3 2016/09/28 05:23:40;
+  ends 3 2016/09/28 06:23:40;
+  cltt 3 2016/09/28 05:23:40;
+  binding state active;
+  next binding state free;
+  hardware ethernet 34:33:34:33:66:32;
+}
+lease 10.10.111.134 {
+  starts 3 2016/09/28 05:23:41;
+  ends 3 2016/09/28 06:23:41;
+  cltt 3 2016/09/28 05:23:41;
+  binding state active;
+  next binding state free;
+  hardware ethernet 36:30:63:30:31:36;
+}
+lease 10.10.111.135 {
+  starts 3 2016/09/28 05:23:41;
+  ends 3 2016/09/28 06:23:41;
+  cltt 3 2016/09/28 05:23:41;
+  binding state active;
+  next binding state free;
+  hardware ethernet 37:34:37:39:61:61;
+}
+lease 10.10.111.137 {
+  starts 3 2016/09/28 05:23:43;
+  ends 3 2016/09/28 06:23:43;
+  cltt 3 2016/09/28 05:23:43;
+  binding state active;
+  next binding state free;
+  hardware ethernet 38:32:33:32:38:36;
+}
+lease 10.10.111.138 {
+  starts 3 2016/09/28 05:23:43;
+  ends 3 2016/09/28 06:23:43;
+  cltt 3 2016/09/28 05:23:43;
+  binding state active;
+  next binding state free;
+  hardware ethernet 33:64:62:32:65:37;
+}
+lease 10.10.111.141 {
+  starts 3 2016/09/28 05:23:45;
+  ends 3 2016/09/28 06:23:45;
+  cltt 3 2016/09/28 05:23:45;
+  binding state active;
+  next binding state free;
+  hardware ethernet 61:64:39:36:66:62;
+}
+lease 10.10.111.143 {
+  starts 3 2016/09/28 05:23:46;
+  ends 3 2016/09/28 06:23:46;
+  cltt 3 2016/09/28 05:23:46;
+  binding state active;
+  next binding state free;
+  hardware ethernet 39:64:35:35:63:65;
+}
+lease 10.10.111.144 {
+  starts 3 2016/09/28 05:23:46;
+  ends 3 2016/09/28 06:23:46;
+  cltt 3 2016/09/28 05:23:46;
+  binding state active;
+  next binding state free;
+  hardware ethernet 62:62:38:33:33:30;
+}
+lease 10.10.111.145 {
+  starts 3 2016/09/28 05:23:47;
+  ends 3 2016/09/28 06:23:47;
+  cltt 3 2016/09/28 05:23:47;
+  binding state active;
+  next binding state free;
+  hardware ethernet 38:62:32:38:31:39;
+}
+lease 10.10.111.146 {
+  starts 3 2016/09/28 05:23:48;
+  ends 3 2016/09/28 06:23:48;
+  cltt 3 2016/09/28 05:23:48;
+  binding state active;
+  next binding state free;
+  hardware ethernet 62:65:63:66:39:66;
+}
+lease 10.10.111.147 {
+  starts 3 2016/09/28 05:23:48;
+  ends 3 2016/09/28 06:23:48;
+  cltt 3 2016/09/28 05:23:48;
+  binding state active;
+  next binding state free;
+  hardware ethernet 39:39:66:36:38:38;
+}
+lease 10.10.111.148 {
+  starts 3 2016/09/28 05:23:49;
+  ends 3 2016/09/28 06:23:49;
+  cltt 3 2016/09/28 05:23:49;
+  binding state active;
+  next binding state free;
+  hardware ethernet 39:66:66:66:62:30;
+}
+lease 10.10.111.150 {
+  starts 3 2016/09/28 05:23:50;
+  ends 3 2016/09/28 06:23:50;
+  cltt 3 2016/09/28 05:23:50;
+  binding state active;
+  next binding state free;
+  hardware ethernet 36:39:37:64:31:33;
+}
+lease 10.10.111.151 {
+  starts 3 2016/09/28 05:23:50;
+  ends 3 2016/09/28 06:23:50;
+  cltt 3 2016/09/28 05:23:50;
+  binding state active;
+  next binding state free;
+  hardware ethernet 33:32:34:38:30:61;
+}
+lease 10.10.111.154 {
+  starts 3 2016/09/28 05:23:52;
+  ends 3 2016/09/28 06:23:52;
+  cltt 3 2016/09/28 05:23:52;
+  binding state active;
+  next binding state free;
+  hardware ethernet 64:30:34:39:38:66;
+}
+lease 10.10.111.157 {
+  starts 3 2016/09/28 05:23:54;
+  ends 3 2016/09/28 06:23:54;
+  cltt 3 2016/09/28 05:23:54;
+  binding state active;
+  next binding state free;
+  hardware ethernet 35:33:61:39:64:38;
+}
+lease 10.10.111.163 {
+  starts 3 2016/09/28 05:23:57;
+  ends 3 2016/09/28 06:23:57;
+  cltt 3 2016/09/28 05:23:57;
+  binding state active;
+  next binding state free;
+  hardware ethernet 37:37:38:33:39:36;
+}
+lease 10.10.111.166 {
+  starts 3 2016/09/28 05:23:59;
+  ends 3 2016/09/28 06:23:59;
+  cltt 3 2016/09/28 05:23:59;
+  binding state active;
+  next binding state free;
+  hardware ethernet 34:39:65:66:63:64;
+}
+lease 10.10.111.169 {
+  starts 3 2016/09/28 05:24:01;
+  ends 3 2016/09/28 06:24:01;
+  cltt 3 2016/09/28 05:24:01;
+  binding state active;
+  next binding state free;
+  hardware ethernet 63:33:34:34:64:61;
+}
+lease 10.10.111.170 {
+  starts 3 2016/09/28 05:24:01;
+  ends 3 2016/09/28 06:24:01;
+  cltt 3 2016/09/28 05:24:01;
+  binding state active;
+  next binding state free;
+  hardware ethernet 39:61:39:32:31:63;
+}
+lease 10.10.111.171 {
+  starts 3 2016/09/28 05:24:02;
+  ends 3 2016/09/28 06:24:02;
+  cltt 3 2016/09/28 05:24:02;
+  binding state active;
+  next binding state free;
+  hardware ethernet 31:62:66:63:33:63;
+}
+lease 10.10.111.173 {
+  starts 3 2016/09/28 05:24:03;
+  ends 3 2016/09/28 06:24:03;
+  cltt 3 2016/09/28 05:24:03;
+  binding state active;
+  next binding state free;
+  hardware ethernet 37:62:63:35:64:36;
+}
+lease 10.10.111.176 {
+  starts 3 2016/09/28 05:24:04;
+  ends 3 2016/09/28 06:24:04;
+  cltt 3 2016/09/28 05:24:04;
+  binding state active;
+  next binding state free;
+  hardware ethernet 62:61:62:32:62:63;
+}
+lease 10.10.111.177 {
+  starts 3 2016/09/28 05:24:05;
+  ends 3 2016/09/28 06:24:05;
+  cltt 3 2016/09/28 05:24:05;
+  binding state active;
+  next binding state free;
+  hardware ethernet 31:63:35:34:36:38;
+}
+lease 10.10.111.180 {
+  starts 3 2016/09/28 05:24:07;
+  ends 3 2016/09/28 06:24:07;
+  cltt 3 2016/09/28 05:24:07;
+  binding state active;
+  next binding state free;
+  hardware ethernet 33:34:30:38:62:63;
+}
+lease 10.10.111.183 {
+  starts 3 2016/09/28 05:24:08;
+  ends 3 2016/09/28 06:24:08;
+  cltt 3 2016/09/28 05:24:08;
+  binding state active;
+  next binding state free;
+  hardware ethernet 36:35:65:39:39:64;
+}
+lease 10.10.111.185 {
+  starts 3 2016/09/28 05:24:09;
+  ends 3 2016/09/28 06:24:09;
+  cltt 3 2016/09/28 05:24:09;
+  binding state active;
+  next binding state free;
+  hardware ethernet 64:66:38:31:33:65;
+}
+lease 10.10.111.186 {
+  starts 3 2016/09/28 05:24:10;
+  ends 3 2016/09/28 06:24:10;
+  cltt 3 2016/09/28 05:24:10;
+  binding state active;
+  next binding state free;
+  hardware ethernet 61:38:30:61:31:32;
+}
+lease 10.10.111.187 {
+  starts 3 2016/09/28 05:24:11;
+  ends 3 2016/09/28 06:24:11;
+  cltt 3 2016/09/28 05:24:11;
+  binding state active;
+  next binding state free;
+  hardware ethernet 37:62:64:33:65:33;
+}
+lease 10.10.111.189 {
+  starts 3 2016/09/28 05:24:12;
+  ends 3 2016/09/28 06:24:12;
+  cltt 3 2016/09/28 05:24:12;
+  binding state active;
+  next binding state free;
+  hardware ethernet 34:36:61:33:31:38;
+}
+lease 10.10.111.191 {
+  starts 3 2016/09/28 05:24:13;
+  ends 3 2016/09/28 06:24:13;
+  cltt 3 2016/09/28 05:24:13;
+  binding state active;
+  next binding state free;
+  hardware ethernet 61:34:62:30:34:61;
+}
+lease 10.10.111.192 {
+  starts 3 2016/09/28 05:24:13;
+  ends 3 2016/09/28 06:24:13;
+  cltt 3 2016/09/28 05:24:13;
+  binding state active;
+  next binding state free;
+  hardware ethernet 66:32:30:36:61:31;
+}
+lease 10.10.111.194 {
+  starts 3 2016/09/28 05:24:15;
+  ends 3 2016/09/28 06:24:15;
+  cltt 3 2016/09/28 05:24:15;
+  binding state active;
+  next binding state free;
+  hardware ethernet 30:62:63:31:64:33;
+}
+lease 10.10.111.196 {
+  starts 3 2016/09/28 05:24:16;
+  ends 3 2016/09/28 06:24:16;
+  cltt 3 2016/09/28 05:24:16;
+  binding state active;
+  next binding state free;
+  hardware ethernet 36:35:39:32:62:63;
+}
+lease 10.10.111.198 {
+  starts 3 2016/09/28 05:24:17;
+  ends 3 2016/09/28 06:24:17;
+  cltt 3 2016/09/28 05:24:17;
+  binding state active;
+  next binding state free;
+  hardware ethernet 32:66:32:36:36:34;
+}
+lease 10.10.111.118 {
+  starts 3 2016/09/28 05:25:57;
+  ends 3 2016/09/28 06:25:57;
+  cltt 3 2016/09/28 05:25:57;
+  binding state active;
+  next binding state free;
+  hardware ethernet 30:38:37:33:37:64;
+}
+lease 10.10.111.120 {
+  starts 3 2016/09/28 05:25:58;
+  ends 3 2016/09/28 06:25:58;
+  cltt 3 2016/09/28 05:25:58;
+  binding state active;
+  next binding state free;
+  hardware ethernet 64:35:30:37:30:35;
+}
+lease 10.10.111.133 {
+  starts 3 2016/09/28 05:26:05;
+  ends 3 2016/09/28 06:26:05;
+  cltt 3 2016/09/28 05:26:05;
+  binding state active;
+  next binding state free;
+  hardware ethernet 31:30:31:66:64:35;
+}
+lease 10.10.111.140 {
+  starts 3 2016/09/28 05:26:09;
+  ends 3 2016/09/28 06:26:09;
+  cltt 3 2016/09/28 05:26:09;
+  binding state active;
+  next binding state free;
+  hardware ethernet 64:62:64:61:35:66;
+}
+lease 10.10.111.142 {
+  starts 3 2016/09/28 05:26:10;
+  ends 3 2016/09/28 06:26:10;
+  cltt 3 2016/09/28 05:26:10;
+  binding state active;
+  next binding state free;
+  hardware ethernet 64:37:34:37:39:33;
+}
+lease 10.10.111.149 {
+  starts 3 2016/09/28 05:26:14;
+  ends 3 2016/09/28 06:26:14;
+  cltt 3 2016/09/28 05:26:14;
+  binding state active;
+  next binding state free;
+  hardware ethernet 30:31:32:38:34:65;
+}
+lease 10.10.111.153 {
+  starts 3 2016/09/28 05:26:16;
+  ends 3 2016/09/28 06:26:16;
+  cltt 3 2016/09/28 05:26:16;
+  binding state active;
+  next binding state free;
+  hardware ethernet 64:39:63:38:36:36;
+}
+lease 10.10.111.156 {
+  starts 3 2016/09/28 05:26:18;
+  ends 3 2016/09/28 06:26:18;
+  cltt 3 2016/09/28 05:26:18;
+  binding state active;
+  next binding state free;
+  hardware ethernet 61:64:61:34:30:66;
+}
+lease 10.10.111.158 {
+  starts 3 2016/09/28 05:26:19;
+  ends 3 2016/09/28 06:26:19;
+  cltt 3 2016/09/28 05:26:19;
+  binding state active;
+  next binding state free;
+  hardware ethernet 63:30:63:66:38:62;
+}
+lease 10.10.111.160 {
+  starts 3 2016/09/28 05:26:20;
+  ends 3 2016/09/28 06:26:20;
+  cltt 3 2016/09/28 05:26:20;
+  binding state active;
+  next binding state free;
+  hardware ethernet 33:33:31:65:35:66;
+}
+lease 10.10.111.161 {
+  starts 3 2016/09/28 05:26:21;
+  ends 3 2016/09/28 06:26:21;
+  cltt 3 2016/09/28 05:26:21;
+  binding state active;
+  next binding state free;
+  hardware ethernet 30:30:33:62:37:35;
+}
+lease 10.10.111.162 {
+  starts 3 2016/09/28 05:26:21;
+  ends 3 2016/09/28 06:26:21;
+  cltt 3 2016/09/28 05:26:21;
+  binding state active;
+  next binding state free;
+  hardware ethernet 64:62:63:33:63:64;
+}
+lease 10.10.111.164 {
+  starts 3 2016/09/28 05:26:22;
+  ends 3 2016/09/28 06:26:22;
+  cltt 3 2016/09/28 05:26:22;
+  binding state active;
+  next binding state free;
+  hardware ethernet 35:63:32:35:37:33;
+}
+lease 10.10.111.165 {
+  starts 3 2016/09/28 05:26:23;
+  ends 3 2016/09/28 06:26:23;
+  cltt 3 2016/09/28 05:26:23;
+  binding state active;
+  next binding state free;
+  hardware ethernet 61:35:65:31:63:65;
+}
+lease 10.10.111.168 {
+  starts 3 2016/09/28 05:26:25;
+  ends 3 2016/09/28 06:26:25;
+  cltt 3 2016/09/28 05:26:25;
+  binding state active;
+  next binding state free;
+  hardware ethernet 62:62:37:31:65:30;
+}
+lease 10.10.111.172 {
+  starts 3 2016/09/28 05:26:27;
+  ends 3 2016/09/28 06:26:27;
+  cltt 3 2016/09/28 05:26:27;
+  binding state active;
+  next binding state free;
+  hardware ethernet 61:35:30:36:31:34;
+}
+lease 10.10.111.178 {
+  starts 3 2016/09/28 05:26:30;
+  ends 3 2016/09/28 06:26:30;
+  cltt 3 2016/09/28 05:26:30;
+  binding state active;
+  next binding state free;
+  hardware ethernet 36:39:38:30:34:61;
+}
+lease 10.10.111.179 {
+  starts 3 2016/09/28 05:26:31;
+  ends 3 2016/09/28 06:26:31;
+  cltt 3 2016/09/28 05:26:31;
+  binding state active;
+  next binding state free;
+  hardware ethernet 32:39:36:65:64:31;
+}
+lease 10.10.111.181 {
+  starts 3 2016/09/28 05:26:32;
+  ends 3 2016/09/28 06:26:32;
+  cltt 3 2016/09/28 05:26:32;
+  binding state active;
+  next binding state free;
+  hardware ethernet 31:37:38:66:30:30;
+}
+lease 10.10.111.188 {
+  starts 3 2016/09/28 05:26:36;
+  ends 3 2016/09/28 06:26:36;
+  cltt 3 2016/09/28 05:26:36;
+  binding state active;
+  next binding state free;
+  hardware ethernet 62:32:39:33:66:64;
+}
+lease 10.10.111.190 {
+  starts 3 2016/09/28 05:26:37;
+  ends 3 2016/09/28 06:26:37;
+  cltt 3 2016/09/28 05:26:37;
+  binding state active;
+  next binding state free;
+  hardware ethernet 39:34:31:35:64:39;
+}
+lease 10.10.111.193 {
+  starts 3 2016/09/28 05:26:39;
+  ends 3 2016/09/28 06:26:39;
+  cltt 3 2016/09/28 05:26:39;
+  binding state active;
+  next binding state free;
+  hardware ethernet 64:63:66:64:31:62;
+}
+lease 10.10.111.195 {
+  starts 3 2016/09/28 05:26:40;
+  ends 3 2016/09/28 06:26:40;
+  cltt 3 2016/09/28 05:26:40;
+  binding state active;
+  next binding state free;
+  hardware ethernet 32:61:63:65:32:30;
+}
+lease 10.10.111.197 {
+  starts 3 2016/09/28 05:26:41;
+  ends 3 2016/09/28 06:26:41;
+  cltt 3 2016/09/28 05:26:41;
+  binding state active;
+  next binding state free;
+  hardware ethernet 63:36:39:65:63:31;
+}
+lease 10.10.111.106 {
+  starts 3 2016/09/28 05:27:43;
+  ends 3 2016/09/28 06:27:43;
+  cltt 3 2016/09/28 05:27:43;
+  binding state active;
+  next binding state free;
+  hardware ethernet 63:62:66:37:30:36;
+}
+lease 10.10.111.110 {
+  starts 3 2016/09/28 05:27:45;
+  ends 3 2016/09/28 06:27:45;
+  cltt 3 2016/09/28 05:27:45;
+  binding state active;
+  next binding state free;
+  hardware ethernet 31:30:61:39:31:33;
+}
+lease 10.10.111.136 {
+  starts 3 2016/09/28 05:28:00;
+  ends 3 2016/09/28 06:28:00;
+  cltt 3 2016/09/28 05:28:00;
+  binding state active;
+  next binding state free;
+  hardware ethernet 35:66:63:34:63:33;
+}
+lease 10.10.111.139 {
+  starts 3 2016/09/28 05:28:01;
+  ends 3 2016/09/28 06:28:01;
+  cltt 3 2016/09/28 05:28:01;
+  binding state active;
+  next binding state free;
+  hardware ethernet 35:30:62:62:36:34;
+}
+lease 10.10.111.174 {
+  starts 3 2016/09/28 05:28:21;
+  ends 3 2016/09/28 06:28:21;
+  cltt 3 2016/09/28 05:28:21;
+  binding state active;
+  next binding state free;
+  hardware ethernet 39:63:39:63:37:66;
+}
+lease 10.10.111.175 {
+  starts 3 2016/09/28 05:28:21;
+  ends 3 2016/09/28 06:28:21;
+  cltt 3 2016/09/28 05:28:21;
+  binding state active;
+  next binding state free;
+  hardware ethernet 38:66:63:37:35:33;
+}
+lease 10.10.111.184 {
+  starts 3 2016/09/28 05:28:26;
+  ends 3 2016/09/28 06:28:26;
+  cltt 3 2016/09/28 05:28:26;
+  binding state active;
+  next binding state free;
+  hardware ethernet 39:34:33:30:33:39;
+}
+lease 10.10.111.199 {
+  starts 3 2016/09/28 05:28:35;
+  ends 3 2016/09/28 06:28:35;
+  cltt 3 2016/09/28 05:28:35;
+  binding state active;
+  next binding state free;
+  hardware ethernet 35:65:63:62:32:37;
+}
+lease 10.10.111.200 {
+  starts 3 2016/09/28 05:28:35;
+  ends 3 2016/09/28 06:28:35;
+  cltt 3 2016/09/28 05:28:35;
+  binding state active;
+  next binding state free;
+  hardware ethernet 34:37:61:65:64:63;
+}
+lease 10.10.111.119 {
+  starts 3 2016/09/28 05:29:29;
+  ends 3 2016/09/28 06:29:29;
+  cltt 3 2016/09/28 05:29:29;
+  binding state active;
+  next binding state free;
+  hardware ethernet 30:31:34:32:64:31;
+}
+lease 10.10.111.155 {
+  starts 3 2016/09/28 05:29:49;
+  ends 3 2016/09/28 06:29:49;
+  cltt 3 2016/09/28 05:29:49;
+  binding state active;
+  next binding state free;
+  hardware ethernet 31:34:64:63:32:66;
+}
+lease 10.10.111.167 {
+  starts 3 2016/09/28 05:29:56;
+  ends 3 2016/09/28 06:29:56;
+  cltt 3 2016/09/28 05:29:56;
+  binding state active;
+  next binding state free;
+  hardware ethernet 34:64:39:32:62:65;
+}
+lease 10.10.111.182 {
+  starts 3 2016/09/28 05:30:04;
+  ends 3 2016/09/28 06:30:04;
+  cltt 3 2016/09/28 05:30:04;
+  binding state active;
+  next binding state free;
+  hardware ethernet 32:64:61:37:37:31;
+}
+lease 10.10.111.152 {
+  starts 3 2016/09/28 05:31:34;
+  ends 3 2016/09/28 06:31:34;
+  cltt 3 2016/09/28 05:31:34;
+  binding state active;
+  next binding state free;
+  hardware ethernet 31:36:62:31:61:66;
+}
+lease 10.10.111.159 {
+  starts 3 2016/09/28 05:31:37;
+  ends 3 2016/09/28 06:31:37;
+  cltt 3 2016/09/28 05:31:37;
+  binding state active;
+  next binding state free;
+  hardware ethernet 32:34:35:30:30:62;
+}
