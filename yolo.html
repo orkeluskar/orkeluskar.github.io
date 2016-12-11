@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>Countdown</title>
+<script type="text/javascript">
+// set minutes
+var mins = 5;
+ 
+// calculate the seconds (don't change this! unless time progresses at a different speed for you...)
+var secs = mins * 60;
+function countdown() {
+	setTimeout('Decrement()',1000);
+}
+function Decrement() {
+	if (document.getElementById) {
+		minutes = document.getElementById("minutes");
+		seconds = document.getElementById("seconds");
+		// if less than a minute remaining
+		if (seconds < 59) {
+			seconds.value = secs;
+		} else {
+			minutes.value = getminutes();
+			seconds.value = getseconds();
+		}
+		secs--;
+		setTimeout('Decrement()',1000);
+	}
+}
+function getminutes() {
+	// minutes is seconds divided by 60, rounded down
+	mins = Math.floor(secs / 60);
+	return mins;
+}
+function getseconds() {
+	// take mins remaining (as seconds) away from total seconds remaining
+	return secs-Math.round(mins *60);
+}
+</script>
+
+
+</head>
+<body>
+
+
+
+<title>Mobivity | More Customers, More Often</title>
+        <!-- ### FAVICON IMPORT ### -->
+        <!--  <link rel="icon" type="image/x-icon" href="/images/favicon.png" /> -->
+        <link rel="icon" type="image/x-icon" href="https://storage.googleapis.com/mobivitysmartsms.appspot.com/static/images/favicon.png">
+        <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">-->
+        <link rel="stylesheet" href="./Mobivity _ More Customers, More Often_files/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <!-- ### MAIN CSS ### -->
+        <link rel="stylesheet" href="./Mobivity _ More Customers, More Often_files/main_newtemplate.css">
+        <!--<link rel="stylesheet" href="/css/main_newtemplate.css">-->
+        <style type="text/css">
+		
+		 .zone1 {
+                background-color: #ffffff !important;
+            }
+            .zone2 {
+                background-color: #68BC49 !important;
+                color: #ffffff !important;
+            }
+            .zone3 {
+                background-color: #ffffff !important;
+                color: #008952 !important;
+            }
+            .zone4 {
+	            color: #008952 !important;
+            }
+            a.zone4 {
+                color: #ffffff !important;
+                background-color: #008952 !important;
+            }
+
+            #dialog-redeem .modal-body, #dialog-error .modal-body, #dialog-expired .modal-body {
+                color: #68BC49;
+            }
+
+            #dialog-redeem .modal-body .button#cancelButton {
+                color: #ffffff;
+                background-color: #929497;
+            }
+
+            #dialog-error .modal-body .button#closeErrorButton, #dialog-expired .modal-body .button#closeExpiredButton {
+                background-color: #68BC49;
+            }
+
+            #dialog-redeem .modal-body .button#confirmButton {
+                background-color: #008952;
+            }
+
+            #nolongervalid {
+                color: #68BC49;
+            }
+
+            .legalWarning, #redeemFinePrint {
+                color: #929497;
+            }
+
+            .c-text, #countdownText {
+                color: #008952;
+            }
+
+            #progressText {
+                color: #008952;
+            }
+            #progressBar {
+                border: 2px solid #68BC49;
+            }
+            #progressBar .progress {
+                border: 3px solid #ffffff;
+                background: #68BC49;
+            }
+            #raf_legal {
+                color: #929497;
+            }
+        </style>
+		
+		
+		<div class="container-fluid zone1" id="logo">
+            <img src="./Mobivity _ More Customers, More Often_files/88ea32a5-573b-44d0-a17e-003b4feee189.png" alt="SUBWAY Logo" class="brandLogo">
+        </div>
+
+<div class="container-fluid zone2" id="offerText">
+            <div id="offerTextOffer">
+                <h1>FREE 6-INCH CLASSIC SUB WITH PURCHASE OF ANY 30 OZ DRINK</h1>
+            </div>
+            <div id="offerTextRefer" style="display:none;">
+                <h1>Refer Friends to Earn More Offers</h1>
+                <p>Valid only at participating locations.</p>
+            </div>
+        </div> 
+		
+		
+ 
+</br>
+</br>
+ 
+<div id="timer">
+	This is only valid for the next <input id="minutes" type="text" style="width: 14px; border: none; background-color:none; font-size: 16px; font-weight: bold;"> minutes and <input id="seconds" type="text" style="width: 26px; border: none; background-color:none; font-size: 16px; font-weight: bold;"> seconds.
+</div>
+</br>
+</br>
+<section class="mainLegal">
+                <p>Additional charges for extras and Deluxe. Plus tax. Participation varies. No cash value. May not be combined with other offers, coupons or discount cards. Void if transferred, sold, auctioned, reproduced or altered. SUBWAY® is a Registered Trademark of Subway IP Inc. ©2016 Subway IP Inc. Valid only at participating U.S. locations.</p>
+            </section>
+<script>
+countdown();
+</script>
