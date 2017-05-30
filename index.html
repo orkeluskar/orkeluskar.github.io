@@ -18,9 +18,9 @@
 
         <link rel="stylesheet" href="css/bootstrap.min.css" >
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script type="application/javascript" src="script/bootstrap.min.js"></script>
 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
         <style>
             body{
                 line-height:1.5;
@@ -47,24 +47,33 @@
         
         <div class="row" style="padding:5vw;">
 
-            <div class="col-1">
-                <nav class="navbar" >
+            <div class="col-2">
+                <nav class="navbar navbar-light" >
 
-                    <div class="navbar-nav  mx-auto">
-                        <a href="#" class="navbar-text nav-item nav-link">Home</a>
-                        <a href="#" class="navbar-text nav-item nav-link">Projects</a>
-                        <a href="#" class="navbar-text nav-item nav-link">Education</a>
-                        <a href="#" class="navbar-text nav-item nav-link">About</a>
+                <button class="btn-success navbar-toggler navbar-toggler-right" type="button" 
+				    data-toggle="collapse" data-target="#myContent1" >
+				    <span class=" navbar-toggler-icon"></span>
+				  </button>
+
+
+                	<div class="collapse navbar-collapse" id="myContent1">
+	                    <div class="navbar-nav  mx-auto">
+	                        <a href="#" class="navbar-text nav-item nav-link">Home</a>
+	                        <a href="#" class="navbar-text nav-item nav-link">Projects</a>
+	                        <a href="#" class="navbar-text nav-item nav-link">Education</a>
+	                        <a href="#" class="navbar-text nav-item nav-link">About</a>
+	                    </div>
                     </div>
                 
                 </nav>
+
             </div>
 
-            <div class="col-1">
-            </div>
+            
 
             <div class="col-10">
-                <div class="container mt-1 mx-auto " style="width:70vw; padding:10px;">
+
+                <div class="container mt-1 mx-auto " style="width:60vw; padding:10px;">
                     <div class="mb-0" style="overflow: hidden; ">
 
                         <img src = "images/profile.jpg" class=" img-fluid rounded-circle  d-block" height="120" width="120" style="margin-right: 20px; float: left;">
@@ -104,7 +113,11 @@
 
         </div>
 
-        
+        	
+        	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script/bootstrap.min.js"></script>
+
     </body>
 
 </html>
