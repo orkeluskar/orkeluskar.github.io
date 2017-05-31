@@ -7,6 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta http-equiv="refresh" content="10"/>
 
         <title>
             Portfolio of Omkar Keluskar
@@ -20,11 +21,12 @@
         <link rel="stylesheet" href="css/styles.css">
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu" />
         
         <style>
             body{
-                line-height:1.5;
-                font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+                line-height:1.8;
+                font-family: Ubuntu;
             }
             
             .h1-text{
@@ -39,6 +41,8 @@
                 font-size: 2.9vmin;
             }
 
+
+
         </style>
 
     </head>
@@ -47,18 +51,18 @@
         
         <div class="row" style="padding:5vw;">
 
-            <div class="col-sm-2">
-                <nav class="navbar navbar-light" >
+        	<div class="col-sm-2">
+                <nav class="navbar navbar-light"  >
 
                 <div class="mx-auto">
-                	<button class="navbar-toggler navbar-toggler-right" type="button" 
+                	<button  class="navbar-toggler navbar-toggler-right" type="button" 
 				    data-toggle="collapse" data-target="#myContent1" >
-				    <span class=" navbar-toggler-icon"></span>
+				    <span class="navbar-toggler-icon"></span>
 				  </button>
                 </div>
  
                 	<div class="collapse navbar-collapse" id="myContent1">
-	                    <div class="navbar-nav  mx-auto">
+	                    <div class="mx-auto navbar-nav">
 	                    	<br><br>
 	                        <a href="#" class="navbar-text nav-item nav-link">Home</a>
 	                        <a href="#" class="navbar-text nav-item nav-link">Projects</a>
@@ -71,9 +75,7 @@
 
             </div>
 
-            
-
-            <div class="col-10">
+        	<div class="col-10">
 
                 <div class="container mt-1 mx-auto " style="width:60vw; padding:10px;">
                     <div class="mb-0" style="overflow: hidden; ">
@@ -85,17 +87,24 @@
 
                     <hr>
                     <div class="para-text row">
-                        <a class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-5" href="https://www.linkedin.com/in/okeluskar" target="_blank"><i class="fa fa-linkedin-square">&nbsp;LinkedIn</i></a>
+                        <a class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-xs-6" href="https://www.linkedin.com/in/okeluskar" target="_blank"><i class="fa fa-linkedin-square">&nbsp;LinkedIn</i></a>
 
-                        <a class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-5" href="https://www.github.com/orkeluskar" target="_blank"><i class="fa fa-github-square">&nbsp;GitHub</i></a>
+                        <a class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-xs-6" href="https://www.github.com/orkeluskar" target="_blank"><i class="fa fa-github-square">&nbsp;GitHub</i></a>
 
-                        <a class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-5" href="mailto:ork216@nyu.edu" target="_blank"><i class="fa fa-envelope-o">&nbsp;Email</i></a>
+                        <a class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-xs-6" href="mailto:ork216@nyu.edu" target="_blank"><i class="fa fa-envelope-o">&nbsp;Email</i></a>
+
+                        <a class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-xs-6" href="files/Resume_Omkar_Keluskar.pdf" target="_blank"><i class="fa fa-file-o">&nbsp;Resume</i></a>
+
+                        
+
+
                     </div>
 
                     <hr>
                     
 
                     <p class="para-text text-justify lead" >
+
                         I'm a graduate student at <a href="http://engineering.nyu.edu/" target_blank>NYU</a>, pursuing my Masters in Computer Science. I have experience developing
                         web and software based systems using various stacks. 
                         <br><br>
@@ -113,12 +122,28 @@
                 </div>
             </div>    
 
-        </div>
+        
+
+            
+
+         </div>   
+
+            
 
         	
         	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="script/bootstrap.min.js"></script>
+  <script src="script/tether.js"></script>
+
+  <script>
+  $(document).ready(function() {
+    $('#trigger').click(function(){
+      $("#dialog").dialog();
+    }); 
+  });                  
+</script>
+
 
     </body>
 
