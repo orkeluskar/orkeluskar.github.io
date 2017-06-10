@@ -1,32 +1,41 @@
 body{
-    line-height: 1.5;
+    line-height: 1.45;
     font-family: Ubuntu;
 
 }
 
 .h1-text{
-    font-size: 3.2vw;
+    font-size: 3.2vmax;
 }
 
 .h2-text{
-    font-size: 2.4vw;
+    font-size: 2.4vmax;
 }
 
 .h3-text{
-    font-size: 2.3vw;
+    font-size: 2.2vmax;
+}
+
+.small-head{
+    font-size: 1.7vmax;
 }
 
 .para-text{
-    font-size: 2.2vmin;
+    font-size: 1.1vmax;
+
+}
+
+.small-text{
+    font-size: 0.8vmax;
 }
 
 .navbar-text{
-    font-size: 2.2vmin;
+    font-size: 1.3vmax;
 }
 
 img{
-    height: 15%;
-    width: 15%;
+    height: 7vmax;
+    width: 7vmax;
     margin-right: 20px; 
     float: left;
 }
