@@ -1,7 +1,6 @@
 body{
     line-height: 1.45;
     font-family: Ubuntu;
-
 }
 
 .h1-text{
@@ -21,12 +20,12 @@ body{
 }
 
 .para-text{
-    font-size: 1.1vmax;
+    font-size: 1.15vmax;
 
 }
 
 .small-text{
-    font-size: 0.8vmax;
+    font-size: 0.9vmax;
 }
 
 .navbar-text{
