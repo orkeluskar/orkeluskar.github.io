@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--Import Google Icon Font-->
-   
-    
+  <head> 
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> 
     <title>Portfolio | Omkar Keluskar | Software Engineer</title>
@@ -77,6 +73,10 @@
 
         
     </style>
+
+    <link async type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link async rel="stylesheet" href="css/font-awesome.min.css">
+    <link asyc rel="stylesheet" href="css/animate.css">
   </head>
 
   <body >
@@ -141,14 +141,17 @@
         
         <div id="landing" class="section scrollspy">
             <div class="row container">
-                <div class="col s10 m10 l6">
+                <div class=" col s10 m10 l6">
                     <h3 class="mt left-align">
                         Hello,
                     </h3>
-                    <h2 class="mt flow-text">
-                            I'm <strong>Omkar Keluskar</strong>, an efficiency-minded full-stack software engineer. 
-                            Focused on designing, developing & deploying software system using 
-                            cloud technologies, latest frameworks & best practices.       
+                    <h2 class="mt flow-text tlt">
+                        
+                        I'm <strong class="welcome-text">Omkar Keluskar</strong>, an efficiency-minded 
+                        full-stack software engineer. Focused on designing, developing 
+                        & deploying software system using cloud technologies, latest 
+                        frameworks & best practices.  
+                         
                     </h2>
                     <h2 class="mt flow-text">
                             <a class="mr grey-text " href="https://github.com/orkeluskar">  
@@ -471,7 +474,7 @@
         
     </main>
 
-    <footer id="contact" class="section scrollspy grey-bg page-footer">
+    <footer style="background-color: darkslategray" id="contact" class="section scrollspy grey-bg page-footer">
             <div class="container">
               <div class="row">
                 <div class="valign-wrapper col l6 s12">
@@ -511,6 +514,8 @@
     
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script  type="text/javascript" src="js/jquery.lettering.js"></script>
+    <script type="text/javascript" src="js/jquery.textillate.js"></script>
     <script>
 
         function changeBg(){
@@ -531,26 +536,21 @@
         }
 
         $( document ).ready(function(){
-
-
-            $(".button-collapse").sideNav();
-
+            $(function () {
+                $('.welcome-text').textillate({
+                    in: {
+                        effect: 'bounceInDown'
+                    }
+                });
+            })
+            $('.button-collapse').sideNav();
             $('.collapsible').collapsible();
-
             $( "#nav-mobile" ).show(2000);
-
             $('.scrollspy').scrollSpy();
-
-            $(document).ready(function(){
-                $('.parallax').parallax();
-            });
 
             var scroll_pos = 0;
             $(document).scroll(function() { 
-                var scroll_pos = $(this).scrollTop();
-                
-                
-              
+                var scroll_pos = $(this).scrollTop();     
             });
             
         });
