@@ -544,6 +544,26 @@
                                 </li>
                             </ul>
                         </div>
+
+                        <div style="margin-top: 5vw;">
+                            <h4 class="">More on Git:</h4>
+                             <!-- Modal Trigger -->
+                                 <!-- Modal Trigger -->
+                                <button data-target="gitprojects" class="btn modal-trigger">Show</button>
+
+                                <!-- Modal Structure -->
+                                <div id="gitprojects" class="modal modal-fixed-footer">
+                                    <div class="modal-content">
+                                        <h4>Latest updates on GitHub:</h4>
+                                        <div class="row" id="loadGithubProjects">
+
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                    </div>
+                                </div>
+                        </div>
                     </div>
                 </div>
         
@@ -580,7 +600,7 @@
               </div>
               <div class="footer-copyright">
                     <div>
-                            Designed & Developed by Omkar Keluskar 2017
+                            Designed & Developed by Omkar Keluskar 2018
                     </div>
                   </div>
             </div>
@@ -592,6 +612,37 @@
     <script  type="text/javascript" src="js/jquery.lettering.js"></script>
     <script type="text/javascript" src="js/jquery.textillate.js"></script>
     <script>
+
+        
+        const loadGitProjects = async () =>{
+            const response = await fetch("https://api.github.com/users/orkeluskar/repos");
+            const repos = await response.json();
+            
+            let html_markup = '';
+            for ( i = repos.length - 1; i >= 0; i--){
+                //console.log(repos[i])
+                let desc = ''
+                if (repos[i].description !== null)
+                    desc = repos[i].description
+                html_markup +=       '<div class="col s12 m4">'
+                                    +       '<div class="card blue-grey darken-1">'
+                                    +           '<div class="card-content white-text">'
+                                    +               '<span class="card-title">' + repos[i].name                  
+                                    +               '</span>'
+                                    +               '<p>' + desc + '</p>'
+                                    +           '</div>'
+                                    +           '<div class="card-action">'
+                                    +               '<a  href="' + repos[i].html_url + '" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> </a>'
+                                    +           '</div>'
+                                    +       '</div>'
+                                    +   '</div>';
+  
+            }
+            document.getElementById("loadGithubProjects").innerHTML = html_markup;
+        }
+        window.onload = loadGitProjects;
+
+  
 
         function changeBg(){
             console.log("cl");
@@ -611,6 +662,8 @@
         }
 
         $( document ).ready(function(){
+            $('.modal').modal();
+            
             $(function () {
                 $('.welcome-text').textillate({
                     in: {
